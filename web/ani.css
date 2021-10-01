@@ -1,13 +1,16 @@
 
+
+
 .box {
- height: 100px;
- width: 100px;
- border: 5px solid black; 
+    margin: 200px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
 }
 
 .rotate-scale-up {
-	-webkit-animation: rotate-scale-up 0.65s 1 forwards;
-	        animation: rotate-scale-up 0.65s 1 forwards;
+	-webkit-animation: rotate-scale-up 2s infinite alternate;
+	        animation: rotate-scale-up 2s infinite alternate;
 }
 
 /* ----------------------------------------------
