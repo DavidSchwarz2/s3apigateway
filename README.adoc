@@ -1,0 +1,11 @@
+
+== update stack
+```
+aws cloudformation update-stack --stack-name s3proxy --template-body "$(cat aws/s3proxy.yaml)" --capabilities CAPABILITY_NAMED_IAM
+```
+
+
+== upload site to s3
+```
+ aws s3 cp web/ s3://s3proxywebsite --recursive
+```
